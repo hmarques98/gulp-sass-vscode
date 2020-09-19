@@ -1,0 +1,30 @@
+$myfont: 1.2em;
+$table_head_col: #ccc;
+$table_row_col: #adf;
+$table_bor_col: #ffa;
+$container_width: 700px;
+$first_col_width: 100px;
+$mybody: #bbf;
+
+div.container {
+  margin: auto;
+  font: $myfont;
+  width: $container_width;
+  background-color: $mybody;
+}
+
+table {
+  tr:nth-child(even) {
+    background: $table_row_col;
+  }
+
+  td:first-child {
+    width: $first_col_width;
+  }
+
+  th {
+    background-color: $table_head_col;
+  }
+
+  border: 1px solid $table_bor_col;
+}

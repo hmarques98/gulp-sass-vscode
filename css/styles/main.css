@@ -1,0 +1,14 @@
+div.container {
+  margin: auto;
+  font: 1.2em;
+  width: 700px;
+  background-color: #bbf; }
+
+table {
+  border: 1px solid #ffa; }
+  table tr:nth-child(even) {
+    background: #adf; }
+  table td:first-child {
+    width: 100px; }
+  table th {
+    background-color: #ccc; }
